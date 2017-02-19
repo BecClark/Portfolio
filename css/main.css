@@ -1,0 +1,136 @@
+/*---- Table of contents
+1. Reset
+2. ....
+3. ...
+---- */
+
+/*--- This is the reset ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+iframe {
+  pointer-events: none;
+}
+
+
+/*--- Universal Styles ---*/
+body {
+  color: #002d56;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.max-width {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+section, footer{
+  padding: 10vh 9vw;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.featured {
+  background-color: #e7e1d5;
+}
+
+.centered {
+  text-align: center;
+}
+
+.white-box {
+  background-color: white;
+  padding: 5%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--- Header ---*/
+.top-banner {
+  min-height: 100vh;
+  background-image: url(../images/giphy.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.nav a {
+  padding: 1.2%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 10%;
+}
+
+
+
+
+
+/*--- About ---*/
+
+
+
+/*--- Skills ---*/
+
+.skillbox {
+  padding: 1.2%;
+  text-align: center;
+}
+
+
+
+/*--- Experience ---*/
+
+.experience h4 {
+  font-weight: 200;
+}
+
+.experience p{
+  font-weight: 200;
+}
+
+
+/*--- Map ---*/
+
+
+
+/*--- Footer ---*/
+
+.featured {
+  text-align: center;
+}
+
+footer a:hover {
+  color: #fff;
+}
+/*--- This is the email section ---*/
+
+.featured a {
+  color: #002d56;
+}
+
+/*--- This is the social section ---*/
+.social a {
+  color: #002d56;
+}
