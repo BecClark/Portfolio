@@ -38,7 +38,7 @@ h1 {
   font-size: 5rem;
 }
 
-section, footer{
+section, footer {
   padding: 10vh 9vw;
 }
 
@@ -72,11 +72,12 @@ a {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
+  text-align: center;
 }
-.nav a {
+.top-banner nav a {
   padding: 1.2%;
-  color: #fff;
   text-decoration: none;
+  color: #fff;
 }
 
 .logo {
@@ -98,6 +99,11 @@ a {
   text-align: center;
 }
 
+@media(max-width: 480px){
+  .skillbox h3 {
+    color: red;
+  }
+}
 
 
 /*--- Experience ---*/
@@ -110,9 +116,21 @@ a {
   font-weight: 200;
 }
 
+@media(max-width: 480px){
+  .experience h3 {
+    color: red;
+  }
+}
+
+
 
 /*--- Map ---*/
 
+@media(max-width:480px){
+  .map {
+    display: none;
+  }
+}
 
 
 /*--- Footer ---*/
